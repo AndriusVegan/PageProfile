@@ -1,0 +1,64 @@
+html{
+    font-size: 1em;
+}
+.card{
+    margin: auto;
+    padding: 15px;
+    width: 350px;
+    font-family: 'Robato condensed', sans-serif;
+    background-color: green;
+    background-image: url("flowers.jpg");
+}
+
+h3{
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.image-div{
+    margin: 15px auto;
+    height: 350px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-div img{
+    width: 100%;
+    height: auto;
+
+}
+
+.info{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#description{
+    font-style: ;
+
+}
+
+#list-items{
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#list-items span{
+    font-weight: bold;  /*can use 500 or 700 number*/
+}
+#qoute{
+    font-style: italic;
+}
+.indent{
+    padding-left: 20px;
+    font-style: italic;
+}
